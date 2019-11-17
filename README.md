@@ -122,3 +122,38 @@ Example:
 Solution: [task F](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_2/TaskF/main.cpp)
 
 ---
+## Third modul
+### Task A. Tree traversal pre-order
+
+Given a number *N* ≤ 104 and a sequence of integers from [-2^^31..231] of length *N*. It is required to construct a binary tree defined by the naive insertion order. Print the items in post-order (bottom to top). Recursion is prohibited.
+
+Time limit: 0.2 c;
+
+Memory limit: 64 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|10 <br> 7 <br> 2 <br> 10 <br> 8 <br> 5 <br> 3 <br> 6 <br> 4 <br> 1 <br> 9| 1 4 3 6 5 2 9 8 10 7|
+
+Solution: [task А](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_3/TaskA/main.cpp).
+
+***
+### Task B. AVL Tree
+
+Given the number of *N* and *N* rows. Each line contains a command to add or remove natural numbers, as well as a request for the kth order statistic. The command to add the number A is given by the positive number A, the command to delete the number A is given by the negative number -A. The request for the kth order statistics is given by the number *k*. The required query execution speed is *O(log n)*.
+
+Time limit: 0.3 c;
+
+Memory limit: 20 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|3 <br> 1 0 <br> 2 0 <br> -1 0|1 1 2|
+
+Solution: [task C](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_3/TaskC/main.cpp).
+
+***
