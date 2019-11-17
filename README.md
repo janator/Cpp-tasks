@@ -243,3 +243,75 @@ Example:
 Solution: [task D](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_4/TaskD/main.cpp).
 
 ***
+# DIHT - 2018/2019 - second term - tasks - rudykh
+## First modul
+### Task A. Graph interface
+Realisation of graph:
+* ListGraph;
+* MatrixGraph
+* SetGraph
+* ArcGraph
+
+Solution: [task A](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_1/TaskA).
+
+***
+### Task B. Number of different paths
+An unweighted undirected graph is given. A graph can have several shortest paths between some vertices. Find the number of different shortest paths between given vertices. The required complexity is *O(V + E)*.
+
+Time limit: 0.1 c;
+
+Memory limit: 5 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|4 <br> 5 <br> 0 1 <br> 0 2 <br> 1 2 <br> 1 3 <br> 2 3 <br> 0 3|2|
+
+Solution: [task B](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_1/TaskB/main.cpp).
+***
+### Task C. Minimum length cycle
+An unweighted undirected graph is given. Find a cycle of minimum length.
+
+Time limit: 1 c;
+
+Memory limit: 100 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|6 6 <br> 0 1 <br> 0 2 <br> 2 3 <br> 2 4 <br> 3 5 <br> 4 5|4|
+
+Solution: [task C](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_1/TaskC/main.cpp).
+***
+### Task D. Bipartite graph
+An unweighted undirected graph is given. Determine if it is a bipartite graph. The required complexity is *O(V + E)*.
+
+Time limit: 1 c;
+
+Memory limit: 64 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|3 <br> 3 <br> 0 1 <br> 1 2 <br> 0 2|YES|
+
+Solution: [task D](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_1/TaskD/main.cpp).
+***
+### Task E. Strongly connected graph
+Oriented graph is given. Determine the minimum number of edges to add to make the graph strongly connected. Loops are possible in the graph.
+
+Time limit: 1 c;
+
+Memory limit: 64 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|4 <br> 4 <br> 1 2 <br> 2 3 <br> 3 1 <br> 3 4|1|
+
+Solution: [task E](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_1/TaskE/main.cpp).
+***
