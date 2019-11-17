@@ -140,7 +140,27 @@ Example:
 Solution: [task А](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_3/TaskA/main.cpp).
 
 ***
-### Task B. AVL Tree
+### Task B. Treap
+
+Given a number *N* < 106 and a sequence of pairs of integers from [-2<sup>31</sup>, 2<sup>31</sup>] of length *N*.
+
+Build a treap from *N* nodes characterized by pairs of numbers *(X<sub>i</sub>, Y<sub>i</sub>)*. Each pair of numbers *(X<sub>i</sub>, Y<sub>i</sub>)* defines the key X<sub>i</sub> and the priority Y<sub>i</sub> in the treap.
+Build also a binary tree. Calculate the difference between the depths of a binary tree and a treap. 
+
+Time limit: 1 c;
+
+Memory limit: 64 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|10 <br> 5 11 <br> 18 8 <br> 25 7 <br> 50 12 <br> 30 30 <br> 15 15 <br> 20 10 <br> 22 5 <br> 40 20 <br> 45 9|2|
+
+Solution: [task B](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_3/TaskB/main.cpp).
+
+***
+### Task C. AVL Tree
 
 Given the number of *N* and *N* rows. Each line contains a command to add or remove natural numbers, as well as a request for the kth order statistic. The command to add the number A is given by the positive number A, the command to delete the number A is given by the negative number -A. The request for the kth order statistics is given by the number *k*. The required query execution speed is *O(log n)*.
 
@@ -155,5 +175,71 @@ Example:
 |3 <br> 1 0 <br> 2 0 <br> -1 0|1 1 2|
 
 Solution: [task C](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_3/TaskC/main.cpp).
+
+***
+## Fourth modul
+### Task A. Hash table
+Implement a multi-row data structure based on a dynamic hash table with open addressing. Stored strings are non-empty and consist of lowercase Latin letters. The hash function of the string must be implemented by calculating the value of the polynomial by the Horner method. The initial size of the table must be equal to 8. Perform rehashing when adding elements in the case when the fill factor of the table reaches 3/4. The data structure should support the operations of adding a row to a set, deleting a row from a set, and checking that a given row belongs to a set.
+
+Time limit: 0.2 c;
+
+Memory limit: 15 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|+ hello <br> + bye <br> ? bye <br> + bye <br> - bye <br> ? bye <br> ? hello|OK <br> OK <br> OK <br> FAIL <br> OK <br> FAIL <br> OK|
+
+Solution: [task A](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_4/TaskA/main.cpp).
+
+***
+
+### Task B. Negotiation application
+There is only one meeting room in a large IT firm. Those wishing to consult should fill out applications with the desired start and end times. Your task is to determine the maximum number of applications that can be satisfied. The number of applications ≤ 10<sup>6</sup>.
+
+Time limit: 0.1 c;
+
+Memory limit: 5 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|1 2 <br> 2 5 <br> 7 10 <br> 2 3 <br> 6 7<br> 4 7 <br> 3 6 <br> 3 5 <br> 1 2 <br> 4 5|5|
+
+Solution: [task B](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_4/TaskB/main.cpp).
+
+***
+### Task C. Wide piramid
+Given *N* cubes. It is required to determine how many ways you can build a pyramid from these cubes.
+
+Time limit: 0.1 c;
+
+Memory limit: 5 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|3|2|
+
+Solution: [task C](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_4/TaskC/main.cpp).
+
+***
+### Task D. The sum of the lengths to the rest
+Given an unweighted tree. The distance between two vertices will be the number of edges in the path connecting these two vertices. For each vertex, determine the sum of the distances to all other vertices.
+
+Time limit: 0.1 c;
+
+Memory limit: 5 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|3 <br> 0 1 <br> 1 2|3 <br> 2 <br> 3|
+
+Solution: [task D](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_1/Modul_4/TaskD/main.cpp).
 
 ***
