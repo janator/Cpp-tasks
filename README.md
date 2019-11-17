@@ -382,3 +382,35 @@ In one of the departments of a large organization, n people work. Like almost al
 
 Solution: [task C](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_3/TaskC/main.cpp).
 ***
+## Fourth Modul
+### Task A. RMQ
+Given a number *N* and a sequence of *N* integers. Find the second order statistic on given ranges.
+To solve the problem, use the Sparse Table data structure.
+
+Solution: [task A](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_4/TaskA/main.cpp).
+***
+### Task B. Unit sequence
+An array of zeros and ones a0, a1, ..., an-1 is given. For each query [left, right], find a subsegment al, al + 1, ..., ar of this array (0 <= left <= l <= r <= right <n) such that the numbers al, al + 1, ..., ar are the maximum possible sequence of units. The required response time to the request is *O(log n)*.
+
+Solution: [task B](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_4/TaskB/main.cpp).
+***
+### Task C. LCA
+Find LCA for a given tree.
+
+Solution: [task C](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_4/TaskC/main.cpp).
+***
+### Task D. Super array of strings
+Implement an “array of strings” data structure based on a treap by an implicit key with the following methods:
+*    // Add a line to position. \\
+*    // All subsequent lines are moved one position forward. \\
+*    void InsertAt (int position, const std :: string & value); \\
+*    // Delete the line from position. \\
+*    // All subsequent lines are shifted back one position. \\
+*    void DeleteAt (int position); \\
+*    // Get the line from position. \\
+*    std :: string GetAt (int position);
+
+All methods should work for *O(log n)* on average, where *n* is the current number of lines in the array.
+
+Solution: [task D](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_4/TaskD/main.cpp).
+***
