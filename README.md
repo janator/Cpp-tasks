@@ -414,3 +414,59 @@ All methods should work for *O(log n)* on average, where *n* is the current numb
 
 Solution: [task D](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_4/TaskD/main.cpp).
 ***
+# DIHT - 2019/2020 - third term - tasks - rudykh
+## First modul. [contest](https://contest.yandex.ru/contest/13875/enter/)
+### Task A. Substring search
+Find all occurrences of the pattern in a string. The length of the pattern is *p*, the length of the string is *n*. Time *O(n + p)*, memory is *O(p)*.
+
+Use one of the methods:
+* Using the prefix function;
+* Using the z-function.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|aba <br> abacababa| 0 4 6|
+
+Solution: [task А](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_3/Modul_1/TaskA/main.cpp).
+
+***
+### Task B1. String recovery by prefix function
+
+Find the lexicographically minimal string constructed by the prefix function in the alphabet a-z.
+
+Example:
+
+| In | Out |
+| ---- | ----- |
+|0 1 2 3 0 | aaaab |
+
+Solution: [task B1](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_3/Modul_1/TaskB1/main.cpp).
+
+---
+### Task B2. Строка по Z-функции (3 балла)
+
+Find the lexicographically minimal string constructed by the z-function in the alphabet a-z.
+
+Example:
+
+| In | Out |
+| ---- | ----- |
+|5 3 2 1 0 | aaaab|
+
+Solution: [task B2](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_3/Modul_1/TaskB2/main.cpp).
+
+---
+### Task C. Aho-Corasic
+The search pattern is given by a string of length m, in which, in addition to ordinary characters, “?” Characters can occur. Find the positions of all occurrences of the template in text of length n. Each occurrence of the template assumes that all ordinary characters coincide with the corresponding ones from the text, and instead of the “?” Symbol, an arbitrary character occurs in the text.
+
+Example:
+
+| In | Out |
+| ---- | ----- |
+|ab??aba <br> ababacaba| 2|
+
+Solution: [task C](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_3/Modul_1/TaskC/main.cpp).
+
+---
