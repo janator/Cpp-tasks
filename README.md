@@ -315,3 +315,70 @@ Example:
 
 Solution: [task E](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_1/TaskE/main.cpp).
 ***
+## Second modul
+### Task A. Cities
+It is required to find the shortest route between cities. A city may exit the road, which returns to the same city.
+
+Time limit: 1 c;
+
+Memory limit: 20 Mb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|6 <br> 9 <br> 0 3 1 <br> 0 4 2 <br> 1 2 7 <br> 1 3 2 <br> 1 4 3 <br> 1 5 3 <br> 2 5 3 <br> 3 4 4 <br> 3 5 6 <br> 0 2|9|
+
+Solution: [task A](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_2/TaskA/main.cpp).
+***
+### Task B. Trade Arbitrage
+You must write a trading adviser to seek arbitration.
+Arbitrage is trading in a chain of different currencies in the hope of making money on small differences in ratios.
+Print YES, if there is arbitration, and NO, otherwise.
+
+Time limit: 1 c;
+
+Memory limit: 64 Mb.
+
+Solution: [task B](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_2/TaskB/main.cpp).
+***
+### Task C. Octopuses
+
+Solution: [task C](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_2/TaskC/main.cpp).
+***
+### Task D. Barley-break
+Find a solution of fifteen game.
+
+Time limit: 6 c;
+
+Memory limit: 1 Gb.
+
+Example:  
+
+| In | Out |
+| ---  | ----- |
+|1 2 3 0 5 6 7 4 9 10 11 8 13 14 15 12 |3 <br> D D D|
+
+Solution: [task D](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_2/TaskD/main.cpp).
+***
+### Task E. Floid
+A complete oriented weighted graph is given by an adjacency matrix. Build a matrix of shortest paths between its vertices. It is guaranteed that there are no negative weight cycles in the graph.
+
+Solution: [task E](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_2/TaskE/main.cpp).
+***
+## Third modul
+### Task A. Minimum spanning tree
+Algorithm Prima.
+
+Solution: [task A](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_3/TaskA/main.cpp).
+***
+### Task B. Max flow
+A directed graph is given, each edge of which has an integer throughput. Find the maximum flow from vertex number 1 to vertex number n.
+
+Solution: [task B](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_3/TaskB/main.cpp).
+***
+### Task C. Tea
+In one of the departments of a large organization, n people work. Like almost all employees of this organization, they like to drink tea in between work. Moreover, they are quite disciplined and take exactly one break a day, during which they drink tea. In order to make this break as pleasant as possible, each of the employees in this department must drink tea of one of his favorite varieties. On different days, the employee can drink tea of ​​different varieties. For convenience, we number the tea varieties with numbers from 1 to m. Recently, department employees bought a large set of tea bags, which contains a1 tea bags of tea grade number 1, a2 tea bags of tea grade number 2, ..., am tea bags of tea grade number m. Now they want to know for what maximum number of days a purchased set can last for them so that each day each employee gets a bag of tea of one of his favorite varieties. Each employee of the department drinks exactly one cup of tea per day, which is brewed from one bag. At the same time, tea bags are not brewed again. Find max number of days.
+
+Solution: [task C](https://github.com/rudykh/Cpp-tasks/blob/master/Sem_2/Modul_3/TaskC/main.cpp).
+***
